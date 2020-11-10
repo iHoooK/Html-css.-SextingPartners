@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sexting Partners</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a href="index.html" class="logo header__logo">
+						<img src="img/logo.svg" alt="logo">
+						<p class="logo__text">SextingPartners.com</p>
+					</a>
+					<a href="profile_settings.html" class="header__profile">
+						<p class="header__name">William</p>
+						<p class="header__score">1230</p>
+						<img src="img/profile.svg" alt="profile" class="header__ico">
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<section class="settings">
+			<div class="container">
+				<div class="settings__inner">
+					<div class="settings__left">
+						<div class="settings__photo">
+							<a href="" class="settings__photo-btn">Change Photo</a>
+						</div>
+						<a href="#" class="settings__exit settings__exit-hd">Sign Out</a>
+					</div>
+					<div class="settings__right">
+						<form name="settings__form" class="set" action="settings.php" method='post'>
+                            <input class="input settings__form-name" name="name" type="text" placeholder="Full name" />
+                            <div class="settings__radio">
+                        		<label class="settings__label">
+                        			<p>Male</p>
+								    <input type="radio" checked="checked" name="radio">
+								    <span class="settings__checkmark"></span>
+								</label>
+								<label class="settings__label">
+									<p>Female</p>
+								    <input type="radio" name="radio">
+								    <span class="settings__checkmark"></span>
+								</label>
+                        	</div>
+                            <input class="input settings__form-age" name="age" type="text" placeholder="Age" />
+                            <textarea class="input settings__form-about" name="about" placeholder="About"></textarea>                            	
+                        	<div class="settings__switchs">                            		
+                        		<label class="settings__switch">
+								    <input type="checkbox">
+								    <span class="settings__slider settings__round"></span>
+								</label>
+								<p>Notify me of site updates</p>
+                        	</div>
+                            <input class="btn settings__form-submit" type="submit" value="Safe Prefences" />
+                        </form>
+					</div>					
+					<a href="#" class="settings__exit settings__exit-768">Sign Out</a>
+				</div>
+			</div>
+		</section>
+
+		
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<a href="index.html" class="logo footer__logo">
+						<img src="img/logo.svg" alt="logo">
+						<p class="logo__text">SextingPartners.com</p>
+					</a>
+					<div class="footer__links">
+						<a href="policy.html" class="footer__link">Private Policy</a>
+						<a href="any_text.html" class="footer__link">Terms and Conditions</a>
+						<a href="#" class="footer__link">Cancel Subscription</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	 
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
